@@ -10,7 +10,7 @@ export const Routes = [
   },
   {
     method: "get",
-    route: "/student/get-by-id",
+    route: "/student/get-by-id/:id",
     controller: StudentController,
     action: "getStudent",
   },
@@ -28,7 +28,7 @@ export const Routes = [
   },
   {
     method: "delete",
-    route: "/student/delete",
+    route: "/student/delete/:id",
     controller: StudentController,
     action: "removeStudent",
   },
